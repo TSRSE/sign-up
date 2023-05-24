@@ -8,41 +8,50 @@
     <title>New account</title>
 </head>
 <body>
-    <div class="container">
+    
         <div class="left-side">
+            <h1>Cool phonk assets</h1>
             <img src="" alt="coolpfp">
+            <h2>Chills online</h2>
         </div>
         <div class="main">
             <h1>Something Cool</h1>
             <form action="" method="" id="main-form">
-                <div class="input-block">
-                    <label for="first-name">First name</label>
-                    <input type="text" name="first-name" id="">
+                <div class="row">
+                    <div class="input-block">
+                        <label for="first-name">First name</label>
+                        <input type="text" name="first-name" id="" required="true">
+                    </div>
+                    <div class="input-block">
+                        <label for="last-name">Last name</label>
+                        <input type="text" name="last-name" id="" required="true">
+                    </div>
                 </div>
-                <div class="input-block">
-                    <label for="last-name">Last name</label>
-                    <input type="text" name="last-name" id="">
+                <div class="row">
+                    <div class="input-block">
+                        <label for="email-input">E-mail</label>
+                        <input type="email" name="email-input" id="" required="true">
+                    </div>
+                    <div class="input-block">
+                        <label for="phone-number">Phone number</label>
+                        <input type="tel" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" name="phone-number" id="" required="true">
+                    </div>
                 </div>
-                <div class="input-block">
-                    <label for="email-input">E-mail</label>
-                    <input type="email" name="email-input" id="">
-                </div>
-                <div class="input-block">
-                    <label for="phone-number">Phone number</label>
-                    <input type="tel" name="phone-number" id="">
-                </div>
-                <div class="input-block">
-                    <label for="password">Password</label>
-                    <input type="password" name="password" id="">
-                </div>
-                <div class="input-block">
-                    <label for="password-repeat">Repeat password</label>
-                    <input type="password" name="password-repeat" id="">
+                <div class="row">
+                    <div class="input-block">
+                        <label for="password">Password</label>
+                        <input type="password" name="password" id="" required="true">
+                    </div>
+                    <div class="input-block">
+                        <label for="password-repeat">Repeat password</label>
+                        <input type="password" name="password-repeat" id="" required="true">
+                    </div>
                 </div>
                 <button type="submit">Create account</button>
             </form>
+            
             <p>Have account? <a href="">Log in</a></p>
         </div>
-    </div>
+    
 </body>
 </html>
