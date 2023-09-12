@@ -68,6 +68,7 @@ label{
 }
 
 input{
+    transition: 0.5s;
     border: none;
     border-bottom: 1px solid var(--primary-color);
     width: 240px;
@@ -123,9 +124,11 @@ button:hover{
     background-repeat: no-repeat;
     background-size: 300%;
     background-color: rgba(47, 26, 52, 0.139);
+    transition: 0.5s;
 }
 
 .left-side .banner{
+    transition: 0.5s;
     max-width: 100%;
     width: auto;
     height: auto;
