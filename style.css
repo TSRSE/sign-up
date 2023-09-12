@@ -63,7 +63,7 @@ h2{
 
 label{
     position: absolute;
-    opacity: 0.6;
+    opacity: 0.9;
     color: var(--primary-color);
 }
 
@@ -72,13 +72,13 @@ input{
     border: none;
     border-bottom: 1px solid var(--primary-color);
     width: 240px;
-    height: 24px;
+    height: 48px;
     margin-top: 16px;
     margin-bottom: 16px;
     background-color: rgba(0, 0, 0, 0);
     color: var(--primary-color);
+    font-size: 1.2rem;
 }
-
 
 input:valid {
     outline: none;
@@ -98,16 +98,20 @@ input:focus{
 button{
     font-family: 'Nanum Gothic', sans-serif;
     background-color: rgba(0, 0, 0, 0);
+    
+    padding: 16px 0px 16px 2px;
     width: 180px;
-    height: 32px;
+    /* height: 32px; */
     border: solid 1px;
     border-radius: 4px;
-    color: var(--background-color);
+    color: var(--warn-color);
+    font-size: 16px;
 }
 
 button:hover{
     cursor: pointer;
-    background-color: var(--accent-color);
+    border-color: var(--primary-color);
+    color: var(--primary-color);
 }
 
 .left-side{
@@ -132,6 +136,11 @@ button:hover{
     max-width: 100%;
     width: auto;
     height: auto;
+}
+
+a{
+    text-decoration: none;
+    color: var(--warn-color);
 }
 
 @media screen and (max-width: 1150px){
