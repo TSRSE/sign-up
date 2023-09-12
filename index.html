@@ -8,14 +8,14 @@
     <title>New account</title>
 </head>
 <body>
-    
+    <div class="darken-background"></div>
         <div class="left-side">
             <h1>Cool phonk assets</h1>
-            <img src="" alt="coolpfp">
+            <img src="src/assets/images/1200x1200bf-60.jpg" alt="coolpfp" class="banner">
             <h2>Chills online</h2>
         </div>
         <div class="main">
-            <h1>Something Cool</h1>
+            <h1 class="primary-color">Something Cool</h1>
             <form action="" method="" id="main-form">
                 <div class="row">
                     <div class="input-block">
@@ -34,7 +34,7 @@
                     </div>
                     <div class="input-block">
                         <label for="phone-number">Phone number</label>
-                        <input type="tel" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" name="phone-number" id="" required="true">
+                        <input type="tel" pattern="/\(?([0-9]{3})\)?([ .-]?)([0-9]{3})\2([0-9]{4})/" name="phone-number" id="" required="true">
                     </div>
                 </div>
                 <div class="row">
@@ -50,7 +50,7 @@
                 <button type="submit">Create account</button>
             </form>
             
-            <p>Have account? <a href="">Log in</a></p>
+            <p class="primary-color">Have account? <a href="">Log in</a></p>
         </div>
     
 </body>
